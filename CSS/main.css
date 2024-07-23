@@ -66,17 +66,18 @@
 
 .home .img-container img {
   position: absolute;
-  top: 25%;
+  bottom: 25%;
   right: 10%;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
+  
 }
 @media (max-width: 990px) {
   .home .img-container img {
-    width: 300px;
-    height: 300px;
-    left: 40%;
+    width: 400px;
+    height: 400px;
+    left: 50%;
     top: 18%;
   }
   .home .home-content .text-content {
@@ -85,12 +86,12 @@
     left: 40px;
   }
 }
-@media (min-width: 200px) and (max-width: 500px) {
+@media (min-width: 200px) and (max-width: 600px) {
   .home .img-container img {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     left: 35%;
-    top: 20%;
+    top: 10%;
   }
 }
 .about-section {
@@ -290,4 +291,7 @@
   color: #ffaa17;
   background-color: transparent;
   border: 1px solid #ffaa17;
+}
+.me{
+  background-color: transparent;
 }
